@@ -1,0 +1,216 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Premier élément de menu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Titre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LA MARGHERITA"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <!-- Image et Description -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Image -->
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pizz1"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"/>
+
+            <!-- Description -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sauce tomate aux herbes,mozzarella,
+fromage Edam,origan "
+                android:textSize="14sp"
+                android:paddingStart="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Deuxième élément de menu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Titre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VEGETARIENNE"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <!-- Image et Description -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Image -->
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pizz2"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"/>
+
+            <!-- Description -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sauce tomate aux herbes,poivron,
+courgette,aubergine,oignon
+                   champignons frais,olives noires, mozarella,fromage Edam,origan"
+                android:textSize="14sp"
+                android:paddingStart="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <!-- Deuxième élément de menu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Titre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PEPPORINI"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <!-- Image et Description -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Image -->
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pizz3"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"/>
+
+            <!-- Description -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sauce tomate ,peperonni,mozzarella,
+fromage Edam,origan"
+                android:textSize="14sp"
+                android:paddingStart="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!-- Deuxième élément de menu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Titre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FAJITAS"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <!-- Image et Description -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Image -->
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pizz4"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"/>
+
+            <!-- Description -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sauce tomate aux herbes,poulet,oignon
+,assortiments de poivrons,olives
+noires ,mozarella,fromage Edam,origan"
+                android:textSize="14sp"
+                android:paddingStart="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <!-- Deuxième élément de menu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Titre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="L'OCEAN"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <!-- Image et Description -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Image -->
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pizz5"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"/>
+
+            <!-- Description -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sauce tomate aux herbes ,crevettes,
+                calamars,saumon,mozarella,framage Edam,origan"
+                android:textSize="14sp"
+                android:paddingStart="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Ajoutez plus de LinearLayouts pour d'autres éléments du menu de pizza -->
+</LinearLayout>
